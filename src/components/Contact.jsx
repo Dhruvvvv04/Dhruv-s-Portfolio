@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Linkedin, Github as GithubIcon, Send, ArrowRight, MessageSquare, CheckCircle, AlertCircle, Loader2, Phone } from 'lucide-react';
+import { Mail, Linkedin, Github as GithubIcon, Send, ArrowRight, MessageSquare, CheckCircle, AlertCircle, Loader2, MapPin } from 'lucide-react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -36,7 +36,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="py-24 relative overflow-hidden bg-slate-900/20">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 sm:px-6">
                 <div className="grid lg:grid-cols-2 gap-20 items-center">
 
                     <motion.div
@@ -50,15 +50,15 @@ const Contact = () => {
                             Let's Start a <br /><span className="text-gradient">Conversation.</span>
                         </h2>
                         <p className="text-slate-400 text-lg md:text-xl mb-12 max-w-md font-inter font-light leading-relaxed">
-                            Open to <strong className="text-white">internships, collaborations & real-world projects</strong>. Let's build something that matters.
+                            Open to <strong className="text-white">UI/UX, graphics, and video collaborations</strong>. Let's create visual experiences that stand out.
                         </p>
 
                         <div className="space-y-4">
                             {[
-                                { icon: <Mail size={20} />, label: "Email", text: "yashvrathod2004@gmail.com", href: "mailto:yashvrathod2004@gmail.com" },
-                                { icon: <Phone size={20} />, label: "Phone", text: "+91-9106890193", href: "tel:+919106890193" },
-                                { icon: <Linkedin size={20} />, label: "LinkedIn", text: "yashvrathod2004", href: "https://www.linkedin.com/in/yashvrathod2004" },
-                                { icon: <GithubIcon size={20} />, label: "GitHub", text: "@Yash-2707", href: "https://github.com/Yash-2707" }
+                                { icon: <Mail size={20} />, label: "Email", text: "dhruv545workspace@gmail.com", href: "mailto:dhruv545workspace@gmail.com" },
+                                { icon: <MapPin size={20} />, label: "Location", text: "Vadodara", href: "#" },
+                                { icon: <Linkedin size={20} />, label: "LinkedIn", text: "linkedin.com/in/dhruv-patel", href: "https://www.linkedin.com/" },
+                                { icon: <GithubIcon size={20} />, label: "GitHub", text: "github.com/dhruv", href: "https://github.com/" }
                             ].map((item, i) => (
                                 <a key={i} href={item.href} target="_blank" className="flex items-center gap-6 glass p-6 border-none hover:bg-white transition-all shadow-sm">
                                     <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-slate-500 group-hover:text-primary group-hover:bg-primary/10 transition-all">

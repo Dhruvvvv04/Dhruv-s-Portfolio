@@ -3,37 +3,37 @@ import { Brain, Database, Globe, Zap, Cpu } from 'lucide-react';
 
 const skills = [
     {
-        category: "Frontend Development",
+        category: "Presentation & Office",
         icon: <Globe size={20} />,
-        items: ["React", "Redux", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
-        description: "Responsive interfaces with strong UI/UX principles and modern frontend tooling.",
+        items: ["Advanced Excel", "Word", "PowerPoint", "Power BI (Basic)", "Reporting"],
+        description: "Strong command of presentation and office productivity tools for professional communication.",
         primary: false
     },
     {
-        category: "Backend Development",
+        category: "Web Development",
         icon: <Database size={20} />,
-        items: ["Node.js", "Express.js", "Django", "REST APIs", "Socket.io", "Auth"],
-        description: "API design, middleware, and real-time systems with secure authentication."
+        items: ["React", "JavaScript", "HTML", "CSS", "UI/UX"],
+        description: "Builds responsive and user-focused interfaces with modern frontend foundations."
     },
     {
         category: "Programming Languages",
         icon: <Brain size={20} />,
-        items: ["C++", "Python", "Java", "JavaScript", "TypeScript", "C"],
-        description: "Advanced C++ problem solving with strong OOP and optimization foundations.",
+        items: ["Python (Basic)", "C (Basic)", "JavaScript", "SQL Basics"],
+        description: "Practical coding skills with a learning-focused approach and solid programming basics.",
         primary: true
     },
     {
-        category: "Databases & Cloud",
+        category: "Database & Productivity",
         icon: <Zap size={20} />,
-        items: ["MongoDB", "MySQL", "Firebase", "AWS (Basics)", "Vercel", "Git"],
-        description: "Schema design, query optimization, and cloud deployment fundamentals."
+        items: ["MongoDB (Basic)", "Data Handling", "Documentation", "Team Collaboration"],
+        description: "Supports development workflows with organized data handling and clear technical documentation."
     }
 ];
 
 const Skills = () => {
     return (
         <section id="skills" className="py-24 relative bg-slate-900/20">
-            <div className="container mx-auto px-6 text-center lg:text-left">
+            <div className="container mx-auto px-4 sm:px-6 text-center lg:text-left">
                 <div className="mb-20 flex flex-col lg:flex-row justify-between items-end gap-10">
                     <div className="max-w-2xl">
                         <motion.p
@@ -66,7 +66,7 @@ const Skills = () => {
                         </div>
                         <div className="text-left">
                             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Currently Learning</p>
-                            <p className="text-xs text-white font-medium">Backend Engineering & System Design</p>
+                            <p className="text-xs text-white font-medium">Advanced web workflows and data visualization</p>
                         </div>
                     </motion.div>
                 </div>

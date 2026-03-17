@@ -3,50 +3,58 @@ import { Award, Briefcase, Users, Star, ArrowUpRight, GraduationCap, Building2 }
 
 const experiences = [
     {
+        title: "Here Quality Excellence PVT LTD",
+        type: "Assistant UI/UX Designer & Graphics Designer",
+        period: "Started Position",
+        outcome: "Started professional work focused on interface design, visual communication, and graphic asset creation for digital experiences.",
+        icon: <Building2 size={20} />,
+        color: "bg-fuchsia-500/10"
+    },
+    {
         title: "Parul University",
-        type: "B.Tech in Computer Science",
-        period: "Sept 2022 - June 2026",
-        outcome: "CGPA: 8. Focused on full-stack development, backend systems, and applied problem-solving.",
+        type: "B.Tech Lateral in CSE",
+        period: "2023 - 2026",
+        outcome: "CPI 8.13/10. Focused on computer science engineering, practical software work, and communication-driven project execution.",
         icon: <GraduationCap size={20} />,
         color: "bg-indigo-500/10"
     },
     {
-        title: "DevFest 2024",
-        type: "Global Rank 12",
-        period: "2024",
-        outcome: "Led a team to secure 12th rank globally, contributing to open-source backend and full-stack projects.",
+        title: "PIET-DS, Vadodara",
+        type: "Diploma in Computer Science",
+        period: "2020 - 2023",
+        outcome: "CGPA 8.83/10. Built strong fundamentals in computing and software development.",
         icon: <Award size={20} />,
         color: "bg-blue-500/10"
     },
     {
-        title: "Odoo Hackathon",
-        type: "Finalist (Top 250 / 19,000+)",
-        period: "2024",
-        outcome: "Built a scalable application prototype under tight deadlines as a finalist.",
+        title: "Acmegrade",
+        type: "Software Intern",
+        period: "Feb 2024 - Apr 2024",
+        outcome: "Completed a two-month software internship with practical exposure to real-time projects and technical upskilling.",
         icon: <Star size={20} />,
         color: "bg-purple-500/10"
     },
     {
-        title: "Competitive Programming",
-        type: "DSA & Optimization",
-        period: "Ongoing",
-        outcome: "Solved 600+ algorithmic problems across DSA, DP, and Graph Theory in C++.",
+        title: "Navpad Infotech",
+        type: "Software Intern",
+        period: "Apr 2022 - May 2022",
+        outcome: "Worked on software requirements gathering and basic development workflows with a practical learning approach.",
         icon: <Briefcase size={20} />,
         color: "bg-green-500/10"
     },
     {
-        title: "Coding Ninjas (CodeStudio)",
-        type: "Ninja Dominator",
-        period: "Ongoing",
-        outcome: "27,000+ XP; ranked College Topper twice on competitive coding leaderboards.",
+        title: "Acmegrade Campus Ambassador",
+        type: "Position of Responsibility",
+        period: "Mar 2024 - May 2024",
+        outcome: "Promoted program initiatives and represented campaigns at campus level with communication and outreach activities.",
         icon: <Users size={20} />,
         color: "bg-orange-500/10"
     },
     {
-        title: "Docker Workshop",
-        type: "Coordinator",
-        period: "2024",
-        outcome: "Organized a hands-on workshop on Docker fundamentals, setup, and deployment workflows.",
+        title: "Power BI Workshop",
+        type: "Seminars & Training",
+        period: "2025",
+        outcome: "Participated in practical Power BI sessions to strengthen reporting and data visualization skills.",
         icon: <Building2 size={20} />,
         color: "bg-cyan-500/10"
     }
@@ -55,7 +63,7 @@ const experiences = [
 const Experience = () => {
     return (
         <section id="experience" className="py-24 relative overflow-hidden">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 sm:px-6">
                 <div className="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
                     <div>
                         <motion.p
@@ -73,7 +81,7 @@ const Experience = () => {
                             transition={{ delay: 0.1 }}
                             className="text-3xl md:text-5xl font-grotesk font-bold text-white leading-tight"
                         >
-                            Proof of <br /><span className="text-gradient">Credibility.</span>
+                            Academic & Professional <br /><span className="text-gradient">Highlights.</span>
                         </motion.h2>
                     </div>
                 </div>

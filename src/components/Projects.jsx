@@ -3,55 +3,55 @@ import { Github, Box } from 'lucide-react';
 
 const projects = [
     {
-        title: "AI Travel Planner",
-        category: "Full-Stack AI",
-        problem: "Travelers struggle to build personalized itineraries and find the right hotels quickly.",
-        role: "Full-Stack Developer",
-        solution: "Built a web app that generates personalized itineraries and hotel recommendations using AI. Implemented RESTful APIs with Node.js/Express and a responsive React + Tailwind UI.",
-        challenge: "Keeping the UI fast while integrating Google Places data and Firebase auth.",
-        tech: ["React", "Tailwind", "Node.js", "Express", "Firebase", "Google Places API"],
-        link: "https://github.com/Yash-2707",
-        future: "Add trip sharing, collaborative planning, and budget optimization."
+        title: "Acmegrade Internship Work",
+        category: "Software Internship",
+        problem: "Need to bridge classroom concepts with real software workflows and delivery expectations.",
+        role: "Software Intern",
+        solution: "Worked on practical software assignments, documentation, and implementation support while improving code quality and communication.",
+        challenge: "Adapting to project timelines and real-world collaboration standards in a short internship period.",
+        tech: ["Web Basics", "Documentation", "Problem Solving", "Team Collaboration"],
+        link: "#",
+        future: "Apply the same discipline to larger production-scale applications."
     },
     {
-        title: "Library Finder",
-        category: "Python + Search",
-        problem: "Locating books and subjects across library sections can be time-consuming for students.",
-        role: "Backend & UI Developer",
-        solution: "Built console, GUI, and web experiences with Python, Tkinter, and Flask to search by subject, classmark, or location.",
-        challenge: "Designing reusable modules and handling missing or corrupted CSV data safely.",
-        tech: ["Python", "Flask", "Tkinter", "HTML", "CSV"],
-        link: "https://github.com/Yash-2707",
-        future: "Add fuzzy search and analytics for popular categories."
+        title: "Navpad Infotech Internship",
+        category: "Industry Exposure",
+        problem: "Understanding software project flow from requirements to implementation in an IT environment.",
+        role: "Intern",
+        solution: "Supported project activities and learned requirement analysis, implementation flow, and practical development discipline.",
+        challenge: "Balancing learning speed with project expectations and structured task execution.",
+        tech: ["Software Workflow", "Requirement Analysis", "Implementation Support"],
+        link: "#",
+        future: "Deepen hands-on backend and full-stack development contributions."
     },
     {
-        title: "CodeWiz",
-        category: "Realtime Collaboration",
-        problem: "Teams need real-time collaborative coding with intelligent assistance.",
-        role: "Full-Stack Developer",
-        solution: "Created an AI-powered collaborative editor with React + Context, Node/Express backend, and Socket.io for real-time editing. Integrated OpenAI API for code suggestions.",
-        challenge: "Maintaining low-latency collaboration with stable state synchronization.",
-        tech: ["React", "Context API", "Node.js", "Express", "Socket.io", "OpenAI API"],
-        link: "https://github.com/Yash-2707",
-        future: "Add video co-editing and team workspaces."
+        title: "Power BI Learning Projects",
+        category: "Data Visualization",
+        problem: "Raw data can be hard to communicate without clear visual reporting.",
+        role: "Learner & Builder",
+        solution: "Built practice dashboards and report layouts to improve insight communication and presentation quality.",
+        challenge: "Designing simple visuals that are meaningful, readable, and decision-focused.",
+        tech: ["Power BI", "Excel", "Data Cleaning", "Charts"],
+        link: "#",
+        future: "Create domain-specific dashboards for business and education use cases."
     },
     {
-        title: "QuickSign",
-        category: "Frontend UI/UX",
-        problem: "Users need a secure, clean interface for quick digital signing.",
-        role: "Frontend Developer",
-        solution: "Delivered a responsive, dark-themed signing UI with strong UX patterns and cross-browser testing.",
-        challenge: "Maintaining performance across devices while preserving visual consistency.",
-        tech: ["HTML", "CSS", "JavaScript"],
-        link: "https://github.com/Yash-2707",
-        future: "Integrate secure signature storage and PDF export."
+        title: "Web Design Practice",
+        category: "UI/UX + Frontend",
+        problem: "Need modern, clean web interfaces that remain responsive and user-focused.",
+        role: "Frontend Designer/Developer",
+        solution: "Practiced responsive page structures and component-driven layouts using HTML, CSS, JavaScript, and React.",
+        challenge: "Keeping visual polish while ensuring consistent behavior across devices.",
+        tech: ["HTML", "CSS", "JavaScript", "React"],
+        link: "#",
+        future: "Build complete portfolio-grade products with stronger interaction design."
     }
 ];
 
 const Projects = () => {
     return (
         <section id="projects" className="py-24 relative overflow-hidden">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 sm:px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
                     <div>
                         <motion.p
@@ -78,7 +78,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="max-w-md text-slate-400 text-lg md:text-right font-inter font-light"
                     >
-                        A selection of full-stack projects highlighting backend logic, clean UX, and real-world problem solving.
+                        Resume-aligned practical work covering internships, web design implementation, and data visualization exercises.
                     </motion.div>
                 </div>
 

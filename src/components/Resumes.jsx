@@ -3,17 +3,17 @@ import { Code, ArrowRight } from 'lucide-react';
 
 const resumes = [
     {
-        title: "Software Engineer (Full-Stack)",
+        title: "Dhruv Patel - Resume",
         icon: <Code size={24} />,
-        desc: "C++ DSA expertise, backend-first full-stack development, and hands-on experience with React, Node.js, Express, and Firebase.",
+        desc: "Creative profile focused on UI/UX design, graphics design, and video editing with practical project and internship experience.",
         color: "bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-emerald-500/10"
     }
 ];
 
 const Resumes = () => {
     return (
-        <section className="py-24 relative overflow-hidden">
-            <div className="container mx-auto px-6">
+        <section id="resumes" className="py-24 relative overflow-hidden">
+            <div className="container mx-auto px-4 sm:px-6">
                 <div className="mb-20 text-center">
                     <motion.p
                         initial={{ opacity: 0, y: 10 }}
@@ -52,8 +52,9 @@ const Resumes = () => {
                                 <p className="text-sm text-slate-400 mb-10 leading-relaxed font-inter font-light">{resume.desc}</p>
 
                                 <a
-                                    href="/YashRathod_.pdf"
+                                    href="/DhruvPatel_Resume.pdf"
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-primary group-hover:text-white transition-colors mt-auto group/btn"
                                 >
                                     View Resume <ArrowRight size={14} className="group-hover/btn:translate-x-2 transition-transform" />

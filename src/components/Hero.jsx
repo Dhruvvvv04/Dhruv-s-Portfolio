@@ -60,8 +60,8 @@ const Hero = () => {
     };
 
     return (
-        <section id="home" className="min-h-screen flex items-center relative overflow-hidden pt-24 pb-12">
-            <div className="container mx-auto px-6 relative z-10 text-center">
+        <section id="home" className="min-h-[100svh] flex items-center relative overflow-hidden pt-24 md:pt-24 pb-12">
+            <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center">
                 <motion.div
                     variants={container}
                     initial="hidden"
@@ -72,22 +72,22 @@ const Hero = () => {
                         variants={item}
                         className="text-primary font-bold text-sm md:text-base mb-6 tracking-[0.2em] uppercase"
                     >
-                        Backend-First Full-Stack Builder
+                        UI/UX Designer, Graphics Designer, and Video Editor
                     </motion.h2>
 
                     <motion.h1
                         variants={item}
-                        className="text-3xl md:text-5xl lg:text-6xl font-grotesk mb-10 leading-[1.2] text-white tracking-tighter"
+                        className="text-4xl sm:text-5xl lg:text-6xl font-grotesk mb-10 leading-[1.15] text-white tracking-tighter"
                     >
-                        <span className="text-gradient">Yash Rathod</span> <br />
-                        software engineering student & full-stack developer
+                        <span className="text-gradient">Dhruv Patel</span> <br />
+                        UI/UX Designer, Graphics Designer, and Video Editor
                     </motion.h1>
 
                     <motion.p
                         variants={item}
-                        className="text-lg md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed font-inter font-light"
+                        className="text-base sm:text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed font-inter font-light"
                     >
-                        Strong in <span className="text-white font-medium">C++ DSA</span> with 600+ LeetCode solves, and hands-on in <span className="text-white font-medium">Node.js, Express, React, and Firebase</span>. I build reliable, high-performance systems with real-world impact.
+                        I craft <span className="text-white font-medium">intuitive UI/UX interfaces, bold graphic identities, and engaging video edits</span>. My focus is building visual stories that are clean, memorable, and purpose-driven for digital brands.
                     </motion.p>
 
                     <motion.div
@@ -95,7 +95,7 @@ const Hero = () => {
                         className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-10"
                     >
                         <MagneticButton
-                            href="/YashRathod_.pdf"
+                            href="/DhruvPatel_Resume.pdf"
                             target="_blank"
                             className="btn-primary"
                         >
@@ -118,9 +118,9 @@ const Hero = () => {
                         variants={item}
                         className="flex flex-wrap items-center justify-center gap-4 mb-12"
                     >
-                        <span className="stat-pill">600+ LeetCode</span>
-                        <span className="stat-pill">27k+ CodeStudio XP</span>
-                        <span className="stat-pill">Top 12 DevFest 2024</span>
+                        <span className="stat-pill">B.Tech CSE (2023-2026)</span>
+                        <span className="stat-pill">UI/UX & Graphic Design</span>
+                        <span className="stat-pill">Video Editing Portfolio</span>
                     </motion.div>
 
                     <motion.div
@@ -128,8 +128,8 @@ const Hero = () => {
                         className="flex items-center justify-center gap-10"
                     >
                         {[
-                            { icon: <Github size={24} />, href: "https://github.com/Yash-2707" },
-                            { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/in/yash-rathod-2a9a64256/" }
+                            { icon: <Github size={24} />, href: "https://github.com/" },
+                            { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/" }
                         ].map((social, i) => (
                             <a
                                 key={i}

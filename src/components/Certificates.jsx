@@ -3,20 +3,26 @@ import { Award, ExternalLink, ShieldCheck } from 'lucide-react';
 
 const certificates = [
     {
-        title: "Oracle Certified Foundations Associate, Java",
-        issuer: "Oracle",
-        type: "other",
-        file: "#"
-    },
-    {
         title: "Computer Networks and Internet Protocol",
         issuer: "NPTEL",
         type: "other",
         file: "#"
     },
     {
-        title: "Theory of Computation",
-        issuer: "NPTEL",
+        title: "Artificial Intelligence Internship Program",
+        issuer: "Acmegrade",
+        type: "other",
+        file: "#"
+    },
+    {
+        title: "Java Basics Internship",
+        issuer: "Technosoft",
+        type: "other",
+        file: "#"
+    },
+    {
+        title: "CCNA Networking Course",
+        issuer: "Cisco",
         type: "other",
         file: "#"
     }
@@ -25,7 +31,7 @@ const certificates = [
 const Certificates = () => {
     return (
         <section id="certificates" className="py-24 bg-slate-900/20">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 sm:px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
                     <div>
                         <motion.p
