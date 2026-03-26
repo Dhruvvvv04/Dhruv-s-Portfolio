@@ -1,4 +1,4 @@
-🌐 Yash Rathod – Portfolio Website
+🌐 Dhruv Patel – Portfolio Website
 
 Welcome to my personal portfolio repository!
 This website is a reflection of my journey as a developer, showcasing my work, skills, and passion for building impactful digital experiences.
@@ -52,11 +52,6 @@ You can explore the portfolio here:
 
 I’m always open to opportunities, collaborations, and networking.
 
-🌐 Portfolio: https://yashrathodportfolio.vercel.app/
-
-💼 LinkedIn: (Add your LinkedIn link)
-
-📧 Email: (Add your email address)
 
 ⭐ Support
 
@@ -65,5 +60,4 @@ It truly motivates me to keep building and improving!
 
 👨‍💻 Developed By
 
-Yash Rathod
-Full Stack Developer | MERN | Cloud | AI Enthusiast
+Dhruv Patel
