@@ -11,11 +11,23 @@ const Contact = () => {
         setStatus('loading');
 
         try {
-            // Using Formspree as a professional, zero-config backend
+            const submissionPayload = {
+                ...formData,
+                _subject: `New initiative inquiry from ${formData.name}`,
+                _replyto: formData.email,
+                _autoresponse: `Hi ${formData.name},\n\nThanks for reaching out through my portfolio. I received your initiative details and will get back to you soon.\n\nBest regards,\nDhruv Patel`,
+                source: 'Portfolio contact form',
+                submittedAt: new Date().toISOString(),
+            };
+
+            // Formspree forwards every submission as an email notification.
             const response = await fetch("https://formspree.io/f/xlgbbezp", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                },
+                body: JSON.stringify(submissionPayload),
             });
 
             if (response.ok) {
